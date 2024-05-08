@@ -687,7 +687,7 @@ label {
     font-weight: 500;
     line-height: 16px;
     text-decoration: none;
-    background-color: #141516;
+    background-color: #ffffff;
     color: #4353FF !important;
     border: none;
     height: auto;
@@ -1119,7 +1119,7 @@ label {
 
 .input,
 .textarea {
-    background-color: #fff;
+    background-color: #ffffff;
     border-width: 1px;
     border-style: solid;
     border-color: #454C4C;
