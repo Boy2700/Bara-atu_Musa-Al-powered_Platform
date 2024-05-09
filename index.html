@@ -49,20 +49,20 @@
     </footer>
 
     <script>
-        function validateLogin() {
-            var username = document.getElementById('username').value;
-            var password = document.getElementById('password').value;
-
-            if (username === 'musa' && password === 'musa') {
-                window.location.href = 'home.html';
+        
+            function validateLogin() {
+                var username = document.getElementById('username').value;
+                var password = document.getElementById('password').value;
+    
+                if (username === "" || password === "") {
+                    alert("To use Bara'atu AI Please enter Correct username and password!");
+                } else if (username === 'musa' && password === 'musa') {
+                    window.location.href = 'home.html';
+                } else {
+                    alert("I Bara'atu AI, Detect Invalid Username or Password!");
+                }
             }
-            if (username === "" && password === "") {
-                alert('Please enter your username and password!');
-            } else {
-                alert('Invalid username or password!');
-            }
-
-        }
+    
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
     </script>
