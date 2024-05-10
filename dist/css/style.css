@@ -1464,7 +1464,7 @@ main {
         justify-content: flex-end
     }
 }
-.front {
+h1,p {
     position: relative;
     z-index: 1; /* Set a higher z-index value to bring the element to the front */
 }
