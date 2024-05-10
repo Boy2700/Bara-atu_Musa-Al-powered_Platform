@@ -422,14 +422,7 @@ h6,
         line-height: 32px;
         letter-spacing: -0.1px
     }
-}
 
-.text-light h1,
-.text-light h2,
-.text-light h3,
-.text-light h4,
-.text-light h5,
-.text-light h6,
 .text-light .h1,
 .text-light .h2,
 .text-light .h3,
@@ -451,23 +444,17 @@ h6,
     letter-spacing: -0.1px
 }
 
-h1,
-h2,
 .h1,
 .h2 {
     margin-top: 48px;
     margin-bottom: 16px
 }
 
-h3,
 .h3 {
     margin-top: 36px;
     margin-bottom: 12px
 }
 
-h4,
-h5,
-h6,
 .h4,
 .h5,
 .h6 {
@@ -516,13 +503,6 @@ address {
     margin: 0 0 24px
 }
 
-pre,
-pre h1,
-pre h2,
-pre h3,
-pre h4,
-pre h5,
-pre h6,
 pre .h1,
 pre .h2,
 pre .h3,
