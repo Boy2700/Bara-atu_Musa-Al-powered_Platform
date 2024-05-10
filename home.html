@@ -56,22 +56,21 @@
             <section class="hero">
                 <div class="container">
                     <div class="hero-inner">
-                        <div class="hero-copy">
+                        <div class="hero-copy">  <ab-chat chatbotID="fliX4yXSg6ZZBmAUWrh83"></ab-chat>
                             <h1 class="hero-title mt-0 is-revealing">AI-Powered Personalized Learning Platform</h1>
                             <p class="hero-paragraph is-revealing">Our AI-powered personalized learning platforms tailor educational content to each learner's individual needs, preferences, and learning style, thereby enhancing engagement and comprehension. By leveraging advanced algorithms,
                                 our platform aims to optimize learning outcomes by providing personalized recommendations, adaptive assessments, and real-time feedback to foster continuous improvement and mastery of subject matter. </p>
-								<div class="hero-form field field-grouped is-revealing">
+                            <div class="hero-form field field-grouped is-revealing">
+                              
 
-									<div class="control">
-										<a class="button button-primary button-block" href="https://wa.link/vxs50b">Contact Me (Bara'atu)</a> <br>
-										<ab-chat chatbotID="fliX4yXSg6ZZBmAUWrh83"></ab-chat>
-										<a class="button button-primary button-block" href="https://hosted.aidbase.ai/chatbot/fliX4yXSg6ZZBmAUWrh83?">Ask My AI</a>
-										<a class="button button-primary button-block" href="wordmeaning\meaning.html">Search for Word Meaning</a>
-										<a class="button button-primary button-block" href="worddefinition\definition.html">Search For Definition</a>
-									</div>
-								</div>
+                                <button type="button" class="btn btn-outline-primary" onclick="Contact()">Contact me  (Bara'atu )</button>
+                                <br> <br>
+                                <button type="button" class="btn btn-outline-secondary" onclick="Ask()"> Ask AI</button> <br>
+                                <button type="button" class="btn btn-outline-success" onclick="Meaning()">Search for Word Meaning</button>
+                                <button type="button" class="btn btn-outline-info" onclick="definition()">Search for Word definition</button>
+
+                            </div>
                         </div>
-						
 							
 			    
                         <div class="hero-illustration">
@@ -451,6 +450,23 @@
         </div>
 
         <script src="dist/js/main.min.js"></script>
+		<script>
+			function contactMe() {
+			window.location.href = "https://wa.link/vxs50b";
+		}
+	
+		function askAI() {
+			window.location.href = "https://hosted.aidbase.ai/chatbot/fliX4yXSg6ZZBmAUWrh83?";
+		}
+	
+		function searchMeaning() {
+			window.location.href = "wordmeaning/meaning.html";
+		}
+	
+		function searchDefinition() {
+			window.location.href = "worddefinition/definition.html";
+		}
+	</script>
 </body>
 
 </html>
