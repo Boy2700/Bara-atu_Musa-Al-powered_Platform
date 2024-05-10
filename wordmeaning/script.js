@@ -78,13 +78,13 @@ function logout() {
     // do any logout actions if needed
     alert("You have succefully logout")
         // Redirect to the index page
-    window.location.href = "./Bara-atu_Musa-Al-powered_Platform/index.html";
+    window.location.href = "..../index.html";
 }
 
 function goToHome() {
     // Redirect to the home page
     alert("Welcome to Home Page")
-    window.location.href = "https://boy2700.github.io/Bara-atu_Musa-Al-powered_Platform/home.html";
+    window.location.href = "..../home.html";
 }
 
 function clearFields() {
