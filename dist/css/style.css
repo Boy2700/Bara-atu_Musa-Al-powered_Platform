@@ -1201,7 +1201,7 @@ label {
 }
 
 .hero-illustration {
-    display: none;
+    display: block;
     position: relative
 }
 
