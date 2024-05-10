@@ -90,12 +90,12 @@ function goToHome() {
 function clearFields() {
     // Get references to the input fields you want to clear
     var inputField1 = document.getElementById("wiki-search-input");
-    
+    var inputField2 = document.getElementById("wiki-search-input");
     // Add more input fields as needed
 
     // Clear the input fields
-    inputField1.value = "";
- 
+    inputField1.value ="";
+    inputField2.value ="";
     // Add more lines to clear additional input fields
 
     // Optionally, you can also reset a form if needed
