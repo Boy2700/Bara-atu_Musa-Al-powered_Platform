@@ -84,7 +84,7 @@ function logout() {
 function goToHome() {
     // Redirect to the home page
     alert("Welcome to Home Page")
-    window.location.href = "./Bara-atu_Musa-Al-powered_Platform/home.html";
+    window.location.href = "https://boy2700.github.io/Bara-atu_Musa-Al-powered_Platform/home.html";
 }
 
 function clearFields() {
