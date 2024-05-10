@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome Icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Al-Powered learning platform</title>
+</head>
+
+<body>
+    <div class="hero-copy">
+        <h1 class="hero">AI-Powered Personalized Learning Platform</h1>
+        <hr>
+        <p class="hero">Our AI-powered personalized learning platforms tailor educational content to each learner's individual needs, preferences, and learning style, thereby enhancing engagement and comprehension. By leveraging advanced algorithms, our platform aims
+            to optimize learning outcomes by providing personalized recommendations, adaptive assessments, and real-time feedback to foster continuous improvement and mastery of subject matter. </p>
+        <div class="middle">
+            <div class="wrapper">
+                <header>AI-Powered Platform
+                </header>Welcome Bara'tu!
+                <div class="search">
+                    <input type="text" id="wiki-search-input" placeholder="Search a word" required spellcheck="false">
+                    <i class="fas fa-search"></i>
+                    <span class="material-icons">close</span>
+                </div>
+                <p class="info-text">Type any word here.</p>
+                <ul>
+                    <li class="word">
+                        <div class="details">
+                            <p>__</p>
+                            <span>_ _</span>
+                        </div>
+                        <i class="fas fa-volume-up"></i>
+                    </li>
+                    <div class="content">
+                        <li class="meaning">
+                            <div class="details">
+                                <p>Meaning</p>
+                                <span>___</span>
+                            </div>
+                        </li>
+                        <li class="example">
+                            <div class="details">
+                                <p>Example</p>
+                                <span>___</span>
+                            </div>
+                        </li>
+                        <li class="synonyms">
+                            <div class="details">
+                                <p>Synonyms</p>
+                                <div class="list"></div>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+
+            </div><br> </div>
+        <button type="button" class="btn btn-primary" onclick="clearFields()">Clear</button>
+        <button type="button" class="btn btn-primary" onclick="goToHome()">Home</button>
+        <button type="button" class="btn btn-primary" onclick="logout()">Log out</button>
+
+
+        <footer>
+            <div class="container">
+                <div class="main"></div>
+                <div class="footer">
+                    <p>All rights reserved &copy; 2024 Al-Powered Personalized learning Platform || Bara'atu Musa Muhammad</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

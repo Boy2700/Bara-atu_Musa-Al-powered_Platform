@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta charset="utf-8">
+    <title>Al-Powered learning platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Amatic SC" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <!--Header-->
+    <!--White display-->
+
+    <div class="container-fluid">
+        <div class="hero-copy">
+            <h1 class="hero">AI-Powered Personalized Learning Platform</h1>
+            <hr>
+            <p class="hero">Our AI-powered personalized learning platforms tailor educational content to each learner's individual needs, preferences, and learning style, thereby enhancing engagement and comprehension. By leveraging advanced algorithms, our platform
+                aims to optimize learning outcomes by providing personalized recommendations, adaptive assessments, and real-time feedback to foster continuous improvement and mastery of subject matter. </p>
+
+            <div class="jumbotron">Welcome Bara'atu!
+                <h2 class="text-danger text-center">Ask me Questions...</h2>
+                <!--Search form-->
+                <div class="mx-auto" style="width: 350px;">
+                    <input id="wiki-search-input" type="text" placeholder="Search...">
+                    <button id="btn-wiki" class="btn btn-danger"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="wiki-results mx-3">
+        </div>
+
+        <!--End white display-->
+        <!--Footer-->
+        <button type="button" class="btn btn-primary" onclick="clearFields()">Clear</button>
+        <button type="button" class="btn btn-primary" onclick="goToHome()">Home</button>
+        <button type="button" class="btn btn-primary" onclick="logout()">Log out</button>
+        <footer>
+            <div class="container">
+                <div class="main"></div>
+                <div class="footer">
+                    <p>All rights reserved &copy; 2024 Al-Powered Personalized learning Platform || Bara'atu Musa Muhammad</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+        <script src="..\wordmeaning\script.js"></script>
+        <script src="script.js"></script>
+
+</body>
+
+</html>

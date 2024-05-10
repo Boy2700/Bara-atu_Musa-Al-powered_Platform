@@ -1,0 +1,105 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Lato, Sans-serif;
+    margin-bottom: 60px;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: animateBg 5s linear infinite;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 6px;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    margin-top: 0px;
+}
+
+
+/*Search results */
+
+a:link {
+    color: #777;
+}
+
+a:active {
+    color: #d9534f;
+}
+
+a:visited {
+    color: #d9534f;
+}
+
+
+/*Sticky Footer*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    height: 60px;
+}
+
+
+/*Input form*/
+
+#wiki-search-input {
+    width: 200px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+div {
+    margin: auto;
+}
+
+$footer-height: 100px;
+body {
+    margin: 0;
+    background-color: #000080;
+}
+
+.container {
+    position: fixed;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    height: $footer-height;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    opacity: 0.6;
+}
+
+* {
+    text-align: center;
+    justify-content: end;
+}
+
+.hero {
+    color: #ffff;
+    font-weight: bold;
+}
