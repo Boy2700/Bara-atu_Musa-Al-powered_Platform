@@ -529,7 +529,8 @@ pre .h3,
 pre .h4,
 pre .h5,
 pre .h6 {
-    font-family: "Courier 10 Pitch", Courier, monospace
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    color: #fff;
 }
 
 pre,
