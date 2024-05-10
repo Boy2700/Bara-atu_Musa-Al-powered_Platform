@@ -78,13 +78,13 @@ function logout() {
     // do any logout actions if needed
     alert("You have succefully logout")
         // Redirect to the index page
-    window.location.href = "..../index.html";
+    window.location.href = "./index.html";
 }
 
 function goToHome() {
     // Redirect to the home page
     alert("Welcome to Home Page")
-    window.location.href = "..../home.html";
+   
 }
 
 function clearFields() {
