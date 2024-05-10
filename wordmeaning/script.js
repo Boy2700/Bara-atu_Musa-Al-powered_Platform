@@ -97,7 +97,7 @@ function clearFields() {
     inputField1.value ="";
     inputField2.value ="";
     // Add more lines to clear additional input fields
-
+alert("The screen has been cleared, Input another question!")
     // Optionally, you can also reset a form if needed
     // document.getElementById("myForm").reset();
 }
