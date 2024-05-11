@@ -1,2 +1,2 @@
-This my Landing page AI-powered personalized Learning Platform
+This is my Landing page AI-powered personalized Learning Platform a collaborative work between Yusuf Babatunde and Bara'atu Musa Muhammed....
 https://boy2700.github.io/Bara-atu_Musa-Al-powered_Platform/
